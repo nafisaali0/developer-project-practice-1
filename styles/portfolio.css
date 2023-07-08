@@ -136,3 +136,16 @@ main{
     text-align: center;
 }
 /* about section finish*/
+/* skill section start */
+.skill-para{
+    padding: 30px 150px;
+}
+.skill-container{
+    display: flex;
+    gap: 30px;
+}
+.skill{
+    padding: 20px;
+    box-shadow:5px 5px 10px #826c6c;
+}
+/* skill section finish */
