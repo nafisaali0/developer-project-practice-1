@@ -167,8 +167,33 @@ main section {
   display: flex;
   gap: 50px;
 }
-.download-CV{
-   text-align: center;
-   margin-top: 6px;
+.download-CV {
+  text-align: center;
+  margin-top: 6px;
 }
 /* resume section finish */
+/* footer section start  */
+footer {
+  display: flex;
+  justify-content: space-around;
+  gap: 70px;
+  background: #fff8f3;
+  margin-top: 50px;
+  padding: 50px 100px;
+}
+.footer-column {
+  width: 50%;
+}
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 35px;
+  color: #757575;
+  border: none;
+  border-radius: 5px;
+  background: #fff;
+  width: 100%;
+}
+/* footer section finish  */
